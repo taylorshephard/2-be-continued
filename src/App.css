@@ -99,3 +99,23 @@ button {
   cursor: pointer;
   font-size: x-large;
 }
+
+.track {
+  width: 100%;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  font-size: x-large;
+}
+
+a {
+  color: white;
+  font-size: 25px;
+}
+
+username {
+  color: white;
+  font-size: 25px;
+  background-color: aquamarine;
+}

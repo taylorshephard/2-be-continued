@@ -7,18 +7,9 @@ import Music from "./Music";
 import Events from "./Events";
 import Home from "./Home";
 
-function AppRouter() {
+function AppRouter(props) {
   return (
     <Router>
-      {/* <div className="topnav">
-        <a className="active" href="#home">
-          Home
-        </a>
-        <a href="/photography">Photography</a>
-        <a href="#events">Events</a>
-        <a href="#music">Music</a>
-        <a href="#business">Business</a>
-      </div> */}
       <div>
         <nav className="topnav">
           <ul>
@@ -43,7 +34,7 @@ function AppRouter() {
           <Route path="/" element={<Home />} />
           <Route path="/photography" element={<Photography />} />
           <Route path="/business" element={<Business />} />
-          <Route path="/music" element={<Music />} />
+          <Route path="/music" element={<Music tracks={props.tracks} />} />
           <Route path="/events" element={<Events />} />
         </Routes>
       </div>

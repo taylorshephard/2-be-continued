@@ -3,8 +3,8 @@ import "./App.css";
 
 function Login(props) {
   function login() {
-    var password = document.getElementById("password").value;
-    if (password === "password") {
+    var attemptedPassword = document.getElementById("password").value;
+    if (attemptedPassword === process.env.REACT_APP_PASSWORD) {
       props.onSubmit(true);
     } else {
       alert("Wrong password");

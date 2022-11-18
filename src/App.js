@@ -2,10 +2,11 @@ import { React, useState } from "react";
 import "./App.css";
 import AppRouter from "./AppRouter";
 import Login from "./Login";
+import Tracks from "./tracks.json";
 
 function App() {
+  const tracks = Tracks.Tracks;
   const [passwordCorrect, setPasswordCorrect] = useState(false);
-
   return (
     <div className="App">
       <header>
@@ -15,7 +16,7 @@ function App() {
             <p className="tag-line">A blog exploring minimalism in life</p>
           </div>
           {passwordCorrect ? (
-            <AppRouter />
+            <AppRouter tracks={tracks} />
           ) : (
             <div>
               <div className="topnav-locked-out">
