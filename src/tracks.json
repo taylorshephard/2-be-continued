@@ -1,0 +1,25 @@
+{
+  "Tracks": [
+    {
+      "link": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1379633665&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+      "user_href": "https://soundcloud.com/user-643892567",
+      "user_name": "Travis_Uptown4o2",
+      "song_name": "Radio Fuzz",
+      "song_href": "https://soundcloud.com/user-643892567/radio-fuzz"
+    },
+    {
+      "link": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1385540254&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+      "user_href": "https://soundcloud.com/user-643892567",
+      "user_name": "Travis_Uptown4o2",
+      "song_name": "Relax",
+      "song_href": "https://soundcloud.com/user-643892567/relax"
+    },
+    {
+      "link": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1384120129&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+      "user_href": "https://soundcloud.com/user-643892567",
+      "user_name": "Travis_Uptown4o2",
+      "song_name": "Radio Fuzz",
+      "song_href": "https://soundcloud.com/user-643892567/maybe-for-the-club"
+    }
+  ]
+}
