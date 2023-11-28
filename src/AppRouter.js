@@ -10,24 +10,38 @@ function AppRouter(props) {
   return (
     <Router>
       <div>
-        <nav className="topnav">
-          <ul>
-            <span>
-              <Link to="/">Home</Link>
-            </span>
-            <span>
-              <Link to="/photography">Photography</Link>
-            </span>
-            <span>
-              <Link to="/business">Business</Link>
-            </span>
-            <span>
-              <Link to="/music">Music</Link>
-            </span>
-            <span>
-              <Link to="/events">Events</Link>
-            </span>
-          </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <Link class="nav-link" to="/">
+                    Home
+                  </Link>
+                </li>
+                <li class="nav-item">
+                  <Link class="nav-link" to="/photography">
+                    Photography
+                  </Link>
+                </li>
+                <li class="nav-item">
+                  <Link class="nav-link" to="/business">
+                    Business
+                  </Link>
+                </li>
+                <li class="nav-item">
+                  <Link class="nav-link" to="/music">
+                    Music
+                  </Link>
+                </li>
+                <li class="nav-item">
+                  <Link class="nav-link" to="/events">
+                    Events
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />

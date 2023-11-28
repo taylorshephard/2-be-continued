@@ -2,7 +2,7 @@ import React from "react";
 
 function Business(props) {
   return (
-    <div>
+    <div class="container">
       <h1>Business</h1>
     </div>
   );

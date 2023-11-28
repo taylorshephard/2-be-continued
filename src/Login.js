@@ -12,21 +12,29 @@ function Login(props) {
 
   return (
     <form
-      className="login-form"
+      class="login-form container"
       onSubmit={(e) => {
         e.preventDefault();
         login();
       }}
     >
-      <p>Enter Code</p>
-      <input
-        type="password"
-        id="password"
-        placeholder="Enter password"
-        autoComplete="off"
-        required
-      />
-      <button type="submit" class="btn-primary">Login</button>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">
+          Enter Code
+        </label>
+        <input
+          type="password"
+          class="form-control"
+          placeholder="Enter password"
+          autoComplete="off"
+          id="password"
+          required
+        ></input>
+      </div>
+
+      <button type="submit" class="btn btn-dark">
+        Submit
+      </button>
     </form>
   );
 }

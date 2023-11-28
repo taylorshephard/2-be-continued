@@ -2,6 +2,7 @@ import { React, useState } from "react";
 import AppRouter from "./AppRouter";
 import Login from "./Login";
 import Tracks from "./tracks.json";
+import "./App.scss";
 
 function App() {
   const tracks = Tracks.Tracks;
@@ -9,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <div className="container container-flex">
+        <div>
           <div className="App-header">
             <h1>2B;Cont'd</h1>
             <p className="tag-line">A blog exploring minimalism in life</p>

@@ -5,9 +5,9 @@ function Music(props) {
   const user_link = props.tracks[0].user_href;
 
   return (
-    <div>
+    <div class="container">
       <h1>Music</h1>
-      <div className="music-container">
+      <div class="container" className="music-container">
         <a
           className="username"
           rel="noreferrer"
@@ -19,8 +19,8 @@ function Music(props) {
         </a>{" "}
         ·{" "}
         {props.tracks.map((track) => (
-          <div className="music-item">
-            <div className="track">
+          <div  className="music-item">
+            <div  className="track">
               <a
                 rel="noreferrer"
                 href={track.song_href}

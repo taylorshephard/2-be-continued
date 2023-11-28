@@ -2,7 +2,7 @@ import React from "react";
 
 function Events(props) {
   return (
-    <div>
+    <div class="container">
       <h1>Events</h1>
     </div>
   );
