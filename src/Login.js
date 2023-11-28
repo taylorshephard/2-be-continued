@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 
 function Login(props) {
   function login() {
@@ -27,7 +26,7 @@ function Login(props) {
         autoComplete="off"
         required
       />
-      <button type="submit">Login</button>
+      <button type="submit" class="btn-primary">Login</button>
     </form>
   );
 }

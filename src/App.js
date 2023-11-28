@@ -1,5 +1,4 @@
 import { React, useState } from "react";
-import "./App.css";
 import AppRouter from "./AppRouter";
 import Login from "./Login";
 import Tracks from "./tracks.json";

@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 
 function Music(props) {
   const username = props.tracks[0].user_name;
